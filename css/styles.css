@@ -31,11 +31,13 @@ body {
     ;
 }
 .navigation__link:hover,
-.navigation__link:focus 
+.navigation__link:focus, 
 .header__phone-number:hover,
 .header__email:hover,
 .header__phone-number:focus,
-.header__email:focus
+.header__email:focus,
+.address__link:hover,
+.address__link:focus
 {
     color: var(--main-color);
 }
@@ -108,15 +110,9 @@ body {
     ;
 }
 
-.footer__phone-number:hover,
-.footer__email:hover,
-.footer__phone-number:focus,
-.footer__email:focus
-{
-    color: var(--main-color);
-}
 
-.address__link {
+
+.address__link{
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
@@ -124,8 +120,8 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF99;
     background-color: #2F303A;
-  
 }
+
 
 
 /********portfolio-buttons *****/
