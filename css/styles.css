@@ -100,6 +100,13 @@ body {
   color: #757575;
 }
 
+.team__card{
+  width: 270px;
+  height: 368px;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+}
+
 .team__foto{
     width: 270px;
     height: 260px;
