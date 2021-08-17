@@ -24,6 +24,8 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  border-radius: 4px;
+  border: 0px;
 }
 
 /*****HEADER*****/
@@ -87,7 +89,6 @@ body {
    height: 294px;
 }
 
-
 .descryption {
   font-size: 14px;
   font-weight: 400;
@@ -117,10 +118,15 @@ body {
 /*footer*/
 .footer{
   background-color: #2f303a;
-
 }
-.footer__phone-number,
-.footer__email {
+
+.footer__logo{
+    width: 145px;
+    height: 31px;
+}
+
+
+.footer__link {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
@@ -135,7 +141,13 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff99;
-  background-color: #2f303a;
+}
+
+.address__link:focus,
+.address__link:hover,
+.footer__link:focus,
+.footer__link:hover {
+  color: var(--main-color);
 }
 
 /********portfolio-buttons *****/
@@ -159,8 +171,11 @@ body {
 }
 
 .portfolio__card{
+    width: 370px;
+    height: 404px;
   border: 1px solid #EEEEEE;
 }
+
 .portfolio__item{
   width: 370px;
   height: 294px;
